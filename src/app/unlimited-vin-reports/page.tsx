@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const content = {
     metaTitle: "Unlimited VIN Report For Dealers Subscription",
     metaDescription: "Unlimited VIN reports for dealers. Access vital vehicle history data to make informed decisions. Subscribe now for comprehensive insights!",
-    canonical: "https://www.toyotavindecoder.com/contact-us", 
+    canonical: "https://www.toyotavindecoder.com/unlimited-vin-reports", 
     title: "Unlimited VIN Report For Dealers Subscription",
     description: "Unlimited VIN reports for dealers. Access vital vehicle history data to make informed decisions. Subscribe now for comprehensive insights!",
     type: "website" as const,

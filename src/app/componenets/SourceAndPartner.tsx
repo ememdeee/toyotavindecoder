@@ -28,7 +28,7 @@ const items = [
   },
   {
     name: "Toyota VIN Decoder",
-    logo: "/toyota-vin-decoder-logo.webp",
+    logo: "/toyota-vin-decoder-logo-full.webp",
     description:
       "Specialized service for decoding Toyota vehicle identification numbers, providing detailed vehicle specifications and history.",
     link: "https://www.toyotavindecoder.com/",
