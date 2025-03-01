@@ -31,11 +31,6 @@ export function SampleReportSection({ title, imageSrc, buttonLink, buttonText, q
               />
             </div>
             <div className="text-center">
-              <a href={buttonLink} target="_blank" rel="noopener noreferrer">
-                <Button className="vintage-button px-6 py-3">
-                  {buttonText}
-                </Button>
-              </a>
               <CustomButton variant="secondary" size="small" text={buttonText} href={buttonLink} />
             </div>
           </CardContent>

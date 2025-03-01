@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import HeroSection from "./componenets/HeroSection"
 import Image from "next/image"
 import FAQBasic from "./componenets/FAQBasic"
-import UrlList from "./componenets/url-list"
+// import UrlList from "./componenets/url-list"
 import { SampleReportSection } from "./componenets/SampleReportSection"
 
 export default function Home() {
@@ -146,8 +146,8 @@ export default function Home() {
       <FAQBasic title="Frequently Asked Questions" items={faqItems} />
 
       {/* Other Makes Section */}
-      <UrlList dataSource='makesList' urlPrefix='https://www.chassisvin.com/vin-decoder' />
-      <UrlList dataSource='statesList' urlPrefix='https://www.chassisvin.com/license-plate-lookup' />
+      {/* <UrlList dataSource='makesList' urlPrefix='https://www.chassisvin.com/vin-decoder' /> */}
+      {/* <UrlList dataSource='statesList' urlPrefix='https://www.chassisvin.com/license-plate-lookup' /> */}
     </>
   )
 }
