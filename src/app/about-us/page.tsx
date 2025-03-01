@@ -1,6 +1,25 @@
 import Link from "next/link"
 import { Car, FileText, Store, ArrowRight } from "lucide-react"
 import SourceAndPartner from "../componenets/SourceAndPartner"
+import { Metadata } from "next"
+import { generateMetadataHelper } from "../componenets/MetaGenerator"
+
+// This function generates the metadata for your page
+export async function generateMetadata(): Promise<Metadata> {
+  
+  const content = {
+    metaTitle: "About Us | Our Mission and Values",
+    metaDescription: "Learn about Toyota Decoder by VIN, our journey, and vision for enhancing vehicle information experiences. Discover what drives us forward.",
+    canonical: "https://www.toyotavindecoder.com/about-us", 
+    title: "About Us | Our Mission and Values",
+    description: "Learn about Toyota Decoder by VIN, our journey, and vision for enhancing vehicle information experiences. Discover what drives us forward.",
+    type: "website" as const,
+    seo: [],
+  }
+
+  // Use the helper function to generate metadata
+  return generateMetadataHelper(content)
+}
 
 export default function AboutUsPage() {
   return (
@@ -50,7 +69,7 @@ export default function AboutUsPage() {
           <div className="w-32 h-1 bg-primary mx-auto mb-8"></div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link
-              href="/vin-decoder"
+              href="/"
               className="vintage-card p-6 border-2 border-primary/20 hover:bg-primary/5 transition-colors group"
             >
               <Car className="w-8 h-8 text-primary mb-4" />

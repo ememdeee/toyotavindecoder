@@ -1,4 +1,23 @@
 import { Mail, MapPin, Clock, MessageSquare } from "lucide-react"
+import { Metadata } from "next"
+import { generateMetadataHelper } from "../componenets/MetaGenerator"
+
+// This function generates the metadata for your page
+export async function generateMetadata(): Promise<Metadata> {
+  
+  const content = {
+    metaTitle: "Contact Us | Get in Touch with Our Team",
+    metaDescription: "Have questions or need assistance? Reach out to Toyota VIN Decoder's support team for expert help and quick responses.",
+    canonical: "https://www.toyotavindecoder.com/contact-us", 
+    title: "Contact Us | Get in Touch with Our Team",
+    description: "Have questions or need assistance? Reach out to Toyota VIN Decoder's support team for expert help and quick responses.",
+    type: "website" as const,
+    seo: [],
+  }
+
+  // Use the helper function to generate metadata
+  return generateMetadataHelper(content)
+}
 
 export default function ContactPage() {
   return (

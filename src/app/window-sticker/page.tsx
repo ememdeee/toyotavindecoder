@@ -17,12 +17,11 @@ import { HoverToForm } from "../componenets/HoverToForm"
 export async function generateMetadata(): Promise<Metadata> {
   
   const content = {
-    metaTitle: "Window Sticker | ChassisVIN",
-    metaDescription: "View and print window stickers for your vehicle",
-    canonical: "https://yourwebsite.com/window-sticker", 
-    title: "Vehicle Window Sticker",
+    metaTitle: "How to Get a Toyota Window Sticker by VIN and Why It’s Important",
+    metaDescription: "Buying a used car is stressful. Original Window Sticker provides essential details about the vehicle, making it easier for the buyer to understand its features.",
+    canonical: "https://www.toyotavindecoder.com/window-sticker", 
+    title: "How to Get a Toyota Window Sticker by VIN and Why It’s Important",
     description: "Get detailed information about your vehicle with our window sticker tool",
-    imageUrl: "/window-sticker-og-image.png",
     type: "website" as const,
     seo: [],
   }

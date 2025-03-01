@@ -4,7 +4,7 @@
     "description": "Easily check your Toyota warranty status by VIN to access coverage details, duration, and parts covered. Save on repairs and make informed decisions.",
     "metaTitle": "Toyota Warranty Check by VIN: Find Coverage & Details",
     "metaDescription": "Easily check your Toyota warranty status by VIN to access coverage details, duration, and parts covered. Save on repairs and make informed decisions.",
-    "canonical": "https://www.toyotavindecoder.com/toyota",
+    "canonical": "https://www.toyotavindecoder.com/warranty-by-vin",
     "dataSources": [],
     "reportType": "VHR",
     "heroForm": true,
@@ -129,7 +129,7 @@
     "description": "Access detailed Toyota vehicle specs, features, and options with a Toyota build sheet by VIN. Check out a vehicle's original equipment and build specs before you buy!",
     "metaTitle": "Toyota Build Sheet by VIN: Get Your Vehicle's Specs & Features",
     "metaDescription": "Access detailed Toyota vehicle specs, features, and options with a Toyota build sheet by VIN. Check out a vehicle's original equipment and build specs before you buy!",
-    "canonical": "https://www.toyotavindecoder.com/toyota",
+    "canonical": "https://www.toyotavindecoder.com/build-sheet-by-vin",
     "dataSources": [],
     "reportType": "WS",
     "heroForm": true,
@@ -244,7 +244,7 @@
     "description": "Easily find your Toyota's paint code by VIN to ensure perfect color matching for repairs or touch-ups. Check your vehicle's interior and exterior colors.",
     "metaTitle": "Check Your Toyota Paint Code by VIN for Exact Color Match",
     "metaDescription": "Easily find your Toyota's paint code by VIN to ensure perfect color matching for repairs or touch-ups. Check your vehicle's interior and exterior colors.",
-    "canonical": "https://www.toyotavindecoder.com/toyota",
+    "canonical": "https://www.toyotavindecoder.com/paint-code-by-vin",
     "dataSources": [],
     "reportType": "VHR",
     "heroForm": true,
@@ -349,7 +349,7 @@
     "description": "Easily verify vehicle options and packages using our Toyota options by VIN tool. Instantly view accurate optional equipment and features for any Toyota",
     "metaTitle": "Toyota options by VIN Lookup: Get Accurate Vehicle Options by VIN",
     "metaDescription": "Easily verify vehicle options and packages using our Toyota options by VIN tool. Instantly view accurate optional equipment and features for any Toyota",
-    "canonical": "https://www.toyotavindecoder.com/toyota",
+    "canonical": "https://www.toyotavindecoder.com/options-by-vin",
     "dataSources": [],
     "reportType": "VHR",
     "heroForm": true,
@@ -449,7 +449,7 @@
     "description": "Want to know your Toyota's accurate specs? Click here to see the original factory window sticker with pricing, trim, and features in seconds.",
     "metaTitle": "Find Your Toyota's Specs by VIN – Get the Original Window Sticker",
     "metaDescription": "Want to know your Toyota's accurate specs? Click here to see the original factory window sticker with pricing, trim, and features in seconds.",
-    "canonical": "https://www.toyotavindecoder.com/toyota",
+    "canonical": "https://www.toyotavindecoder.com/specs-by-vin",
     "dataSources": [],
     "reportType": "VHR",
     "heroForm": true,
@@ -488,7 +488,7 @@
       {
         "heading": "The Best Way to Get Toyota Specs by VIN Number",
         "headingLevel": "h2",
-        "content": "<h3>Option 1: Free Methods (Limited Info)</h3><ul><li><strong>Owner's Manual:</strong> Gives you the basics, like maintenance tips and general specs, but doesn't cover things like factory-installed options or the original setup of your Toyota.</li><li><strong>Door Jamb Sticker:</strong> Shows details like tire ratings and weight, but doesn't include full specs or features of the vehicle. But again, it doesn't give you the full specs or detailed features that came with your Toyota.</li><li><strong>Toyota Dealer Lookup:</strong> Visiting a dealer might help, but it's time-consuming, and they may not have access to the complete history or specs of the vehicle, especially if it's used.</li></ul><h3>Option 2: Online VIN Decoders (Basic Info Only)</h3><p><strong>Free VIN Decoders (like NHTSA):</strong> These can tell you the basics—year, make, model, engine type—but they don't cover the whole picture. You won't get the original pricing, optional packages, or any of the in-depth factory details that could affect the value and features of your Toyota.</p><h3>Option 3: The Best Choice – Use ToyotaWindowSticker.com</h3><ul><li>Original Factory Window Sticker: Get the full spec sheet for your Toyota, including all factory-installed features.</li><li>Detailed Info: See the full specs, original MSRP, available options, and any packages that came with the vehicle.</li><li>Fast & Easy: No hassle—just enter the VIN and instantly get the complete details.</li><li>Perfect for Buyers, Sellers, or Owners: Whether buying a used vehicle, selling, or just wanting to know what your Toyota originally came with, https://Toyotawindowsticker.com/ gives you everything you need in one place.</li></ul>"
+        "content": "<h3>Option 1: Free Methods (Limited Info)</h3><ul><li><strong>Owner's Manual:</strong> Gives you the basics, like maintenance tips and general specs, but doesn't cover things like factory-installed options or the original setup of your Toyota.</li><li><strong>Door Jamb Sticker:</strong> Shows details like tire ratings and weight, but doesn't include full specs or features of the vehicle. But again, it doesn't give you the full specs or detailed features that came with your Toyota.</li><li><strong>Toyota Dealer Lookup:</strong> Visiting a dealer might help, but it's time-consuming, and they may not have access to the complete history or specs of the vehicle, especially if it's used.</li></ul><h3>Option 2: Online VIN Decoders (Basic Info Only)</h3><p><strong>Free VIN Decoders (like NHTSA):</strong> These can tell you the basics—year, make, model, engine type—but they don't cover the whole picture. You won't get the original pricing, optional packages, or any of the in-depth factory details that could affect the value and features of your Toyota.</p><h3>Option 3: The Best Choice – Use ToyotaWindowSticker.com</h3><ul><li>Original Factory Window Sticker: Get the full spec sheet for your Toyota, including all factory-installed features.</li><li>Detailed Info: See the full specs, original MSRP, available options, and any packages that came with the vehicle.</li><li>Fast & Easy: No hassle—just enter the VIN and instantly get the complete details.</li><li>Perfect for Buyers, Sellers, or Owners: Whether buying a used vehicle, selling, or just wanting to know what your Toyota originally came with, https://www.toyotavindecoder.com/ gives you everything you need in one place.</li></ul>"
       },
       {
         "heading": "Get Toyota window stickers",
@@ -518,7 +518,7 @@
       },
       {
         "question": "How do I decode my Toyota VIN number?",
-        "answer": "You can use free online VIN decoders, but for the most accurate and detailed specs, check out https://Toyotawindowsticker.com/. It'll give you the original factory window sticker, including all options and packages."
+        "answer": "You can use free online VIN decoders, but for the most accurate and detailed specs, check out https://www.toyotavindecoder.com/. It'll give you the original factory window sticker, including all options and packages."
       },
       {
         "question": "Why should I use ToyotaVINDecoder for my VIN lookup?",

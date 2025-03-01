@@ -3,7 +3,26 @@ import HeroSection from "./componenets/HeroSection"
 import Image from "next/image"
 import FAQBasic from "./componenets/FAQBasic"
 // import UrlList from "./componenets/url-list"
+import { generateMetadataHelper } from "./componenets/MetaGenerator"
 import { SampleReportSection } from "./componenets/SampleReportSection"
+import { Metadata } from "next"
+
+// This function generates the metadata for your page
+export async function generateMetadata(): Promise<Metadata> {
+  
+  const content = {
+    metaTitle: "Free Toyota VIN Decoder | ToyotanVinDecoder",
+    metaDescription: "Free Toyota VIN Decoder - Get a free VIN Decoder and lookup the detailed Toyota vehicle history report with the Toyota VIN Number.",
+    canonical: "https://www.toyotavindecoder.com/", 
+    title: "Free Toyota VIN Decoder",
+    description: "Get detailed information about your vehicle with our VIN Decoder tool",
+    type: "website" as const,
+    seo: [],
+  }
+
+  // Use the helper function to generate metadata
+  return generateMetadataHelper(content)
+}
 
 export default function Home() {
   const faqItems = [

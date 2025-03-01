@@ -6,6 +6,25 @@ import ReportFeatures from "./ReportFeatures"
 import VinImportanceSection from "../componenets/VinImportanceSection"
 import HeroSection from "../componenets/HeroSection"
 import CustomButton from "../componenets/CustomButton"
+import { Metadata } from "next"
+import { generateMetadataHelper } from "../componenets/MetaGenerator"
+
+// This function generates the metadata for your page
+export async function generateMetadata(): Promise<Metadata> {
+  
+  const content = {
+    metaTitle: "Unlimited VIN Report For Dealers Subscription",
+    metaDescription: "Unlimited VIN reports for dealers. Access vital vehicle history data to make informed decisions. Subscribe now for comprehensive insights!",
+    canonical: "https://www.toyotavindecoder.com/contact-us", 
+    title: "Unlimited VIN Report For Dealers Subscription",
+    description: "Unlimited VIN reports for dealers. Access vital vehicle history data to make informed decisions. Subscribe now for comprehensive insights!",
+    type: "website" as const,
+    seo: [],
+  }
+
+  // Use the helper function to generate metadata
+  return generateMetadataHelper(content)
+}
 
 export default function WindowSticker() {
   const faqItems = [
