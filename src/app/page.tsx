@@ -64,7 +64,7 @@ export default function Home() {
 
       <section className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-primary font-serif mb-4">Toyota VIN Decoder Guide</h1>
+          <h2 className="text-4xl font-bold text-primary font-serif mb-4">Toyota VIN Decoder Guide</h2>
           <div className="w-32 h-1 bg-primary mx-auto"></div>
         </div>
 
