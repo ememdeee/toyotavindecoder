@@ -5,6 +5,42 @@ import HeroSection from '@/app/components/HeroSection'
 import CustomButton from '@/app/components/CustomButton'
 import BlogList from '@/app/componenets-global/BlogList'
 import AuthorBox from '@/app/componenets-global/AuthorBox'
+import { Metadata } from "next"
+import { generateMetadataHelper } from '@/app/componenets-global/MetaGenerator'
+
+// This function generates the metadata for your page
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  // Await the params object to get the slug
+  const resolvedParams = await params
+  const authorSlug = resolvedParams.slug
+
+  // Get the author data
+  const author = authors[authorSlug as keyof typeof authors]
+
+  // If author doesn't exist, return default metadata
+  if (!author) {
+    return {
+      title: "Author Not Found | Toyota VIN Decoder",
+      description: "The requested author could not be found.",
+    }
+  }
+
+  // Use the author's metadata fields directly from the authors data
+  const content = {
+    metaTitle: author.metaTitle || `${author.fullName}`,
+    metaDescription:
+      author.metaDescription || `${author.fullName}`,
+    canonical: `https://www.toyotavindecoder.com/author/${authorSlug}`,
+    title: author.metaTitle || `${author.fullName}`,
+    description:
+      author.metaDescription || `${author.fullName}`,
+    type: "website" as const,
+    seo: [],
+  }
+
+  // Use the helper function to generate metadata
+  return generateMetadataHelper(content)
+}
 
 export default async function AuthorPage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;

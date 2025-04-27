@@ -38,7 +38,7 @@ beside the json is exaplnation,please dont put it in your result BUT LISTEN TO I
       {
         "heading": "Check Now", # use direct CTA massage, never exaplin thatthis is CTA like using "Call to Action" words #
         "headingLevel": "CTA",
-        "content": "#"  # don't change this - WE CAN USE LINK OR # TO SCROLL TO THE FORM. #
+        "content": "#"  # don't change this - WE CAN USE LINK OR # TO SCROLL TO THE FORM. DONT ADD ANY TEXT OR HTML ELEMENT, ONLY THE LINK INSIDE THIS CONTENT #
       },
       {
         "heading":  "Example",
