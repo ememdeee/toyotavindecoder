@@ -1,8 +1,8 @@
 import Link from "next/link"
 import { Car, FileText, Store, ArrowRight } from "lucide-react"
-import SourceAndPartner from "../componenets/SourceAndPartner"
 import { Metadata } from "next"
-import { generateMetadataHelper } from "../componenets/MetaGenerator"
+import { generateMetadataHelper } from "../componenets-global/MetaGenerator"
+import SourceAndPartner from "../componenets-global/SourceAndPartner"
 
 // This function generates the metadata for your page
 export async function generateMetadata(): Promise<Metadata> {

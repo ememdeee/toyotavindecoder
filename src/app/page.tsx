@@ -1,11 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card"
-import HeroSection from "./componenets/HeroSection"
+import HeroSection from "./components/HeroSection"
 import Image from "next/image"
-import FAQBasic from "./componenets/FAQBasic"
+import FAQBasic from "./componenets-global/FAQBasic"
 // import UrlList from "./componenets/url-list"
-import { generateMetadataHelper } from "./componenets/MetaGenerator"
-import { SampleReportSection } from "./componenets/SampleReportSection"
+import { SampleReportSection } from "./components/SampleReportSection"
 import { Metadata } from "next"
+import { generateMetadataHelper } from "./componenets-global/MetaGenerator"
 
 // This function generates the metadata for your page
 export async function generateMetadata(): Promise<Metadata> {

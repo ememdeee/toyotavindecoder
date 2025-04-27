@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge"
-import SiteForm from "./SiteForm"
 import { Star } from "lucide-react"
+import SiteForm from "../componenets-global/SiteForm"
 import Image from "next/image"
 import CustomButton from "./CustomButton"
 

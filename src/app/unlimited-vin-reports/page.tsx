@@ -1,13 +1,13 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import FAQBasic from "../componenets/FAQBasic"
-import { SampleReportSection } from "../componenets/SampleReportSection"
+import { SampleReportSection } from "../components/SampleReportSection"
 import {AlertTriangle, BarChart, Car, Database, DollarSign, FileText, Info, Layers} from "lucide-react"
 import ReportFeatures from "./ReportFeatures"
-import VinImportanceSection from "../componenets/VinImportanceSection"
-import HeroSection from "../componenets/HeroSection"
-import CustomButton from "../componenets/CustomButton"
+import VinImportanceSection from "../components/VinImportanceSection"
+import HeroSection from "../components/HeroSection"
+import CustomButton from "../components/CustomButton"
 import { Metadata } from "next"
-import { generateMetadataHelper } from "../componenets/MetaGenerator"
+import FAQBasic from "../componenets-global/FAQBasic"
+import { generateMetadataHelper } from "../componenets-global/MetaGenerator"
 
 // This function generates the metadata for your page
 export async function generateMetadata(): Promise<Metadata> {

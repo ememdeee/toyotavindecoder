@@ -1,6 +1,6 @@
 import Link from "next/link"
-import { generateMetadataHelper } from "../componenets/MetaGenerator"
 import { Metadata } from "next"
+import { generateMetadataHelper } from "../componenets-global/MetaGenerator"
 
 // This function generates the metadata for your page
 export async function generateMetadata(): Promise<Metadata> {

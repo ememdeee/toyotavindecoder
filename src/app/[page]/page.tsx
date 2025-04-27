@@ -1,5 +1,5 @@
-import contents from '../../../data/pages.json';
-import RepetitivePage, { generateMetadata as generateRepetitiveMetadata } from '../componenets/RepetitivePage';
+import contents from '@/data/pages.json'
+import RepetitivePage, { generateMetadata as generateRepetitiveMetadata } from '@/app/componenets-global/RepetitivePage';
 
 export default async function Page({ params }: { params: Promise<{ page: string }> }) {
   const resolvedParams = await params;

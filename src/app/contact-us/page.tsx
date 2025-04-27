@@ -1,6 +1,6 @@
 import { Mail, MapPin, Clock, MessageSquare } from "lucide-react"
 import { Metadata } from "next"
-import { generateMetadataHelper } from "../componenets/MetaGenerator"
+import { generateMetadataHelper } from "../componenets-global/MetaGenerator"
 
 // This function generates the metadata for your page
 export async function generateMetadata(): Promise<Metadata> {

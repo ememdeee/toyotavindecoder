@@ -1,8 +1,8 @@
 import { merriweather, inter } from "./fonts"
 import type React from "react" // Added import for React
 import "./globals.css";
-import { Navbar } from "./componenets/Navbar";
-import { Footer } from "./componenets/Footer";
+import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 
 export default function RootLayout({
   children,

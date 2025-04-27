@@ -55,10 +55,18 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
+                  href="/blogs"
+                  className="text-sm text-foreground/80 hover:text-primary transition-colors font-serif"
+                >
+                  Blogs
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/unlimited-vin-reports"
                   className="text-sm text-foreground/80 hover:text-primary transition-colors font-serif"
                 >
-                  Find Dealers
+                  For Dealers
                 </Link>
               </li>
               <li>

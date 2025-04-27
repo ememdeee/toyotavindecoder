@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next'
 import mainPages from '@/data/pages.json'
+import blogPages from '@/data/blogs.json'
 import { getPageDates } from '@/data/pageDates'
 import fs from 'fs'
 import path from 'path'
@@ -74,12 +75,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // 4. Entries from other json files
 
   // 5. Entries from blogs.json
+  const blogEntries = Object.entries(blogPages).map(([slug, page]) => ({
+    url: formatUrl(baseUrl, `blogs/${slug}`),
+    lastModified: new Date(page.dateModified),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }))
 
   // Combine all entries in the specified order
   const allEntries = [
     homeEntry,
     ...manualEntries,
     ...pageEntries,
+    ...blogEntries,
   ]
 
   // Remove duplicate entries
